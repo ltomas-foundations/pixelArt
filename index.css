@@ -1,0 +1,22 @@
+body {
+    background-color: #baa1bd;
+}
+
+#pallet{
+    height: 30px;
+    width: 192px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr;
+}
+
+#canvas{
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+}
